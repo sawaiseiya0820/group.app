@@ -7,3 +7,17 @@
 //
 
 import Foundation
+
+class Hello : UIViewController {
+    override func viewDidLoad() {
+        
+        
+        self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
+        
+        
+        
+        
+        
+        
+    }
+}

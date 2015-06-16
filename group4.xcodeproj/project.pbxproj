@@ -13,6 +13,11 @@
 		B75402C91B306F01001DC5FB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B75402C81B306F01001DC5FB /* Images.xcassets */; };
 		B75402CC1B306F01001DC5FB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B75402CA1B306F01001DC5FB /* LaunchScreen.xib */; };
 		B75402D81B306F01001DC5FB /* group4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75402D71B306F01001DC5FB /* group4Tests.swift */; };
+		B75402E41B306F5D001DC5FB /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B75402E31B306F5D001DC5FB /* SWRevealViewController.m */; };
+		B75402E61B307538001DC5FB /* BackTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75402E51B307538001DC5FB /* BackTableVC.swift */; };
+		B75402E81B308827001DC5FB /* Hello.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75402E71B308827001DC5FB /* Hello.swift */; };
+		B7EDF7941B30956A001317F0 /* Second.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EDF7931B30956A001317F0 /* Second.swift */; };
+		B7FE46C01B309FEF007B30E0 /* World.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FE46BF1B309FEF007B30E0 /* World.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,13 @@
 		B75402D11B306F01001DC5FB /* group4Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = group4Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B75402D61B306F01001DC5FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B75402D71B306F01001DC5FB /* group4Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = group4Tests.swift; sourceTree = "<group>"; };
+		B75402E11B306F5D001DC5FB /* group4-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "group4-Bridging-Header.h"; sourceTree = "<group>"; };
+		B75402E21B306F5D001DC5FB /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		B75402E31B306F5D001DC5FB /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		B75402E51B307538001DC5FB /* BackTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackTableVC.swift; sourceTree = "<group>"; };
+		B75402E71B308827001DC5FB /* Hello.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hello.swift; sourceTree = "<group>"; };
+		B7EDF7931B30956A001317F0 /* Second.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Second.swift; sourceTree = "<group>"; };
+		B7FE46BF1B309FEF007B30E0 /* World.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = World.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +92,10 @@
 				B75402C11B306F01001DC5FB /* AppDelegate.swift */,
 				B75402C31B306F01001DC5FB /* ViewController.swift */,
 				B75402C51B306F01001DC5FB /* Main.storyboard */,
+				B7FE46BF1B309FEF007B30E0 /* World.swift */,
+				B7EDF7931B30956A001317F0 /* Second.swift */,
+				B75402E71B308827001DC5FB /* Hello.swift */,
+				B75402E51B307538001DC5FB /* BackTableVC.swift */,
 				B75402C81B306F01001DC5FB /* Images.xcassets */,
 				B75402CA1B306F01001DC5FB /* LaunchScreen.xib */,
 				B75402BF1B306F01001DC5FB /* Supporting Files */,
@@ -90,7 +106,10 @@
 		B75402BF1B306F01001DC5FB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B75402E21B306F5D001DC5FB /* SWRevealViewController.h */,
+				B75402E31B306F5D001DC5FB /* SWRevealViewController.m */,
 				B75402C01B306F01001DC5FB /* Info.plist */,
+				B75402E11B306F5D001DC5FB /* group4-Bridging-Header.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -214,6 +233,11 @@
 			files = (
 				B75402C41B306F01001DC5FB /* ViewController.swift in Sources */,
 				B75402C21B306F01001DC5FB /* AppDelegate.swift in Sources */,
+				B75402E61B307538001DC5FB /* BackTableVC.swift in Sources */,
+				B75402E81B308827001DC5FB /* Hello.swift in Sources */,
+				B75402E41B306F5D001DC5FB /* SWRevealViewController.m in Sources */,
+				B7FE46C01B309FEF007B30E0 /* World.swift in Sources */,
+				B7EDF7941B30956A001317F0 /* Second.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,9 +364,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = group4/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "group4/group4-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -350,9 +377,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = group4/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "group4/group4-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -409,6 +438,7 @@
 				B75402DD1B306F01001DC5FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B75402DE1B306F01001DC5FB /* Build configuration list for PBXNativeTarget "group4Tests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +447,7 @@
 				B75402E01B306F01001DC5FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
