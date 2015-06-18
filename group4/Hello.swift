@@ -19,6 +19,10 @@ class Hello : UIViewController {
         
         //hiiiiii
         
+        //terminal
+        
+        
+        
         
         
     }
